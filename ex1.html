@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="scripts/ex1.js" defer></script>
+</head>
+<body>
+    <main class="wrapper">
+        <header class="welcome">
+            <h1>Welcome to our website</h1>
+        </header>
+        <section id="signIn">
+            <header >
+                <h1>Log into your account</h1>
+            </header>
+            <article id="loginForm">
+                <form action="" id="lf">
+                    <label for="email"> 
+                        <i class="fa-solid fa-envelope"></i>
+                        Email
+                    </label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="password">
+                        <i class="fa-solid fa-lock"></i>
+                        Password
+                    </label>
+                    <div id="pwdWrap">
+                        <input type="password" id="password" name="password" required>
+                    <i class="fa-solid fa-eye eyeIcon"></i>
+                    </div>
+
+                <button type="submit" id="loginBtn">Login 
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+
+                <aside>
+                    <p>
+                        <a href="#"> Forgot your password?</a> <br> 
+                        Don't have an account? 
+                        <a href="#"> Signup now!</a>
+                    </p>
+                </aside>
+            </form>
+            </article>
+        </section>
+    </main>
+    <script src="scripts/ex1.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: auto;
+
+}
+
+header {
+    padding-top: 1em;
+}
+
+h1 {
+    font-size: 1.3125em;
+}
+
+.welcome h1::before {
+    content: "\f535";
+    display: inline-block;
+    font-family: "Font Awesome 6 Free";
+    font-size: 1.5em;
+    color: #069;
+    margin-right: .5em;
+}
+
+.welcome h1 {
+    font-size: 2em;
+    margin-top: 1em;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 0 4px #0695;
+}
+
+#signIn {
+    max-width: 800px;
+    width: 90%;
+    margin: .5em auto 3em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,.6);
+}
+
+#signIn header {
+    background-color: #069;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    padding: .5em 1em;
+    text-align: center;
+}
+
+#signIn article {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    min-height: 200px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+#loginBtn {
+    border-radius: 15px;
+    padding: .5em .75em;
+    margin-top: 12px;
+    min-width: 125px;
+    background-color: #069;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+aside {
+    margin-top: 2em;
+    font-size: .9em;
+    color: #333;
+    text-align: center;
+}
+
+a {
+    color: #069;
+    text-decoration: none;
+}
+
+#signIn #loginForm {
+    text-align: left;
+}
+
+label {
+    font-size: .8em;
+    color: #767676;
+    display: block;
+}
+
+label i {
+    margin-right: .25em;
+}
+
+input {
+    border-radius: 6px;
+    padding: 6px;
+    border: solid 1px #999;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#pwdWrap {
+    display: flex;
+    align-items: center;
+    border: solid 1px #999;
+    background-color: #fff;
+    border-radius: 6px;
+    padding-right: .25em;
+}
+
+input#password {
+    margin-bottom: 0;
+    border: none;
+}
+
+.fa-eye, .fa-eye-slash {
+    cursor: pointer;
+    color: #767676;
+}
